@@ -5,12 +5,14 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './index.css'
 import Componente2 from './componentes/componente2.tsx'
 import Componente3 from './componentes/componente3.tsx'
+import Componente4 from './componentes/componente4.tsx'
 import App from './App.tsx'
 
 const router = createBrowserRouter([
   {path: '/', element: <App />},
   {path: '/componente2', element: <Componente2 />},
-  { path: '/componente3', element: <Componente3 /> }
+  { path: '/componente3', element: <Componente3 /> },
+  { path: '/componente4', element: <Componente4 /> }
 ]);
 
 createRoot(document.getElementById('root')!).render(
@@ -21,6 +23,7 @@ createRoot(document.getElementById('root')!).render(
         <li><a href='/'>Componente 1</a></li>
         <li><a href='/componente2'>Componente 2</a></li>
         <li><a href='/componente3'>Componente 3</a></li>
+        <li><a href='/componente4'>Componente 4</a></li>
       </ol>
     </nav>
     <RouterProvider router={router} />

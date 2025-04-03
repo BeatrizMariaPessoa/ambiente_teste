@@ -13,7 +13,6 @@ function App() {
 
   return (
     <>
-
     <div className="Componente">
       <h2>Componente 1</h2>
       <form>

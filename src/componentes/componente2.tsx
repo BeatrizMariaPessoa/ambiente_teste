@@ -15,13 +15,18 @@ function Componente2() {
 
   return (
     <>
-    <div className="Componente">
-      <h2>Componente 2</h2>
-      <form style={{display: 'flex', flexDirection: 'column'}}>
-        <label>{arquivo ? 'Já há um vídeo selecionado!' : ('Selecione um vídeo:')}</label>
-        <input type="file" accept='video/mp4' onChange={InserirArquivo}/>
-      </form>
-    </div>
+    <head>
+      <i class="fi fi-bs-folder"></i>
+    </head>
+    <body>
+      <div className="Componente">
+        <h2>Componente 2</h2>
+        <form style={{display: 'flex', flexDirection: 'column'}}>
+          <label>{arquivo ? 'Já há um vídeo selecionado!' : ('Selecione um vídeo:')}</label>
+          <input type="file" accept='video/mp4' onChange={InserirArquivo}/>
+        </form>
+      </div>
+    </body>
     </>
   )
 }

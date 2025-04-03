@@ -23,6 +23,7 @@ a:hover {
 }
 
 body {
+  background-color: #1a1a1a;
   margin: 0;
   display: flex;
   place-items: center;
@@ -116,4 +117,47 @@ input type{
   border: none;
   background-color: #f0f0f0;
   color: #000000;
+}
+
+
+/* menu text componente 4 */
+
+.Componente4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 700px;
+  height: 90px;
+  border-radius: 10px;
+}
+
+.Componente4 ul{
+  display: flex;
+  width: 550px;
+}
+
+.Componente4 ul li{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  position: relative;
+  list-style: none;
+  width: 90px;
+  height: 90px;
+  z-index: 1;
+}
+/* .Componente4 span{
+  display: flex;
+  flex-direction: column;
+} */
+
+.Componente4 a{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
 }
